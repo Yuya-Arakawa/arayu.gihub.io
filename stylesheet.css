@@ -75,19 +75,11 @@ header {
   text-align: center;
 }
 
-.profilepic {
-  height: 350px;
-  width: 400px;
-}
-.hoby {
+img {
   height: 350px;
   width: 400px;
 }
 
-.book {
-  height: 350px;
-  width: 400px;
-}
 
 .footer {
  background-color: white;
