@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "游明朝";
   color: white;
@@ -8,11 +12,12 @@ li {
   float: left;
   padding: 33px 20px;
 }
-
 header {
   background-color: white;
   height: 91px;
   width: 100%;
+  top: 0;
+  z-index: 10;
 }
 
 .header-logo {
@@ -38,86 +43,93 @@ header {
   color: white;
   background-color: black;
 }
+
+.clear {
+  clear: left;
+}
 .main {
   background-color: #BDB76B;
-  height: 4600px;
+  
   padding: 100px 80px;
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  background-size: cover;
+  text-align: center;
 }
 
 
 
 
 .contents {
-  height:500px;
+  
   width: 1000px;
   margin: 0 auto;
 }
-
 .section-title {
   font-size: 50px;
   padding-bottom: 150px;
   margin-bottom:50px;
   text-align: center;
 }
+
+.contents {
+  text-align: center;
+}
+
 .contents-item {
-  width: 1000px;
+  width: 100%;
   margin-bottom: 50px;
   padding-bottom: 100px;
   text-align: center;
   
 }
-
 .contents-item p {
   font-size: 27px;
   margin: 50px 0px;
   text-align: center;
 }
 
-.profilepic {
-  height: 350px;
-  width: 400px;
-}
-.hoby {
+img {
   height: 350px;
   width: 400px;
 }
 
-.book {
-  height: 350px;
-  width: 400px;
-}
+
 
 .footer {
  background-color: white;
  height: 50px;
  padding: 40px;
 }
-
 .footer-logo {
   color: #BDB76B;
   font-size: 30px;
-  margin: 0px 0px 30px 1050px;
+  margin: 0 auto;
 }
-explanation {
+
+.explanation {
   font-size: 18px;
   border-bottom: 1px solid black;
   margin: 0px 50px 30px 250px;
   padding-bottom: 100px;
-  width: 500px;
+  width: 50%;
+  cursor: pointer;
 }
 
 .explanation-2 {
   font-size: 18px;
   margin: 0px 50px 30px 250px;
   width: 500px;
+  cursor: pointer;
 } 
-
 .favo {
   font-size: 22px;
   border-bottom: 1px solid white;
   display: inline-block;
   list-style: none;
 }
+
 .target {
   font-size: 22px;
   border-bottom: 1px solid white;
@@ -126,8 +138,4 @@ explanation {
 
 .clear {
   clear: left;
-}
-
-*{
-  box-sizing: border-box;
 }
