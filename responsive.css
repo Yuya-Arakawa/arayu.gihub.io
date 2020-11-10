@@ -1,0 +1,70 @@
+@media (max-width: 1000px) {
+
+h1 {
+  width: 50%;
+  margin-top: 20px;
+}
+
+.header-logo {
+  width: 40%;
+  margin-top: 15px;
+}
+.header-list a {
+  width: 30%;
+  font-size: 2px;
+  margin-left: 200px;
+  margin-top: 30px;
+ 
+}
+.contents-item {
+  width: 50%;
+  margin-bottom: 50px;
+}
+.explanation {
+  width: 40%;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.explanation-2 {
+  width: 50%;
+  margin-bottom: 50px;
+  margin-right: 1000px;
+ 
+}
+
+.footer-logo {
+  text-align: center;
+}
+}
+@media (max-width: 670px) {
+  .header-list a {
+    width: 100%;
+    font-size: 5px;
+    display: none;
+  }
+
+  
+  .contents-item {
+    width: 100%;
+  }
+
+  img {
+    margin: 0 auto;
+  }
+    
+  
+  .explanation {
+    width: 100%;
+    font-size: 24px;
+  }
+  .explanation-2 {
+    width: 100%;
+    font-size: 24px;
+  }
+    
+  
+  .footer {
+    text-align: center;
+  }
+}
