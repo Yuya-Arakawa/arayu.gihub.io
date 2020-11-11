@@ -84,7 +84,7 @@ header {
   text-align: center;
   
 }
-.contents-item p {
+.contents-item a {
   font-size: 27px;
   margin: 50px 0px;
   text-align: center;
