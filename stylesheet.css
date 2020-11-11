@@ -118,6 +118,15 @@ img {
 }
 
 .explanation-2 {
+   font-size: 18px;
+  border-bottom: 1px solid black;
+  margin: 0px 50px 30px 250px;
+  padding-bottom: 100px;
+  width: 50%;
+  cursor: pointer;
+}
+
+.explanation-3 {
   font-size: 18px;
   margin: 0px 50px 30px 250px;
   width: 500px;
