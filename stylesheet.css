@@ -109,7 +109,7 @@ img {
  
 }
 
-.explanation {
+.explanation-1 {
   font-size: 18px;
   border-bottom: 1px solid black;
   margin: 0px 50px 30px 250px;
@@ -138,6 +138,7 @@ img {
   border-bottom: 1px solid white;
   display: inline-block;
   list-style: none;
+  text-align: center;
 }
 
 .target {
