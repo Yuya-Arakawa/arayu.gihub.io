@@ -1,82 +1,147 @@
-@media (max-width: 1000px) {
+* {
+  box-sizing: border-box;
+}
 
-h1 {
-  width: 50%;
-  margin-top: 20px;
+body {
+  font-family: "游明朝";
+  color: white;
+}
+
+li {
+  list-style: none;
+  float: left;
+  padding: 33px 20px;
+}
+
+header {
+  background-color: white;
+  height: 91px;
+  width: 100%;
+  top: 0;
+  z-index: 10;
 }
 
 .header-logo {
-  width: 40%;
-  margin-top: 15px;
+  font-size: 36px;
+  float: left;
+  padding: 20px 40px;
+  letter-spacing: 2px;
+  color: black;
 }
+
 .header-list a {
-  width: 30%;
-  font-size: 2px;
-  margin-left: 200px;
-  margin-top: 30px;
- 
-}
-.contents-item {
-  width: 50%;
-  margin-bottom: 50px;
-}
-.explanation {
-  width: 40%;
-  margin-bottom: 50px;
+  color: black;
+  padding: 20px 20px;
+  margin: 25px 30px 0px 0px;
+  display: inline-block;
+  letter-spacing: 3px;
   text-align: center;
+  background-color: white;
+  line-height: 1px;
+  transition: all 1s;
+  flex: auto;
+}
+
+.btn:hover {
+  color: white;
+  background-color: black;
+}
+
+.clear {
+  clear: left;
+}
+
+.main {
+  width: 1000px;
+  background-color: #BDB76B; 
+  padding: 100px 80px;
+  margin: 0 auto;
+  background-size: cover;
+  text-align: center;
+}
+
+.contents {
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 50px;
+  padding-bottom: 150px;
+  margin-bottom:50px;
+  text-align: center;
+}
+
+.contents {
+  text-align: center;
+}
+
+.contents-item {
+  width: 100%;
+  margin-bottom: 50px;
+  padding-bottom: 100px;
+  text-align: center;
+  margin: atuto;
+}
+
+h2 {
+  font-size: 32px;
+  margin: 50px 0px;
+  text-align: center;
+}
+
+img {
+  height: 350px;
+  width: 400px;
+  margin-bottom: 150px;
+}
+
+
+.explanation-1 {
+  border-bottom: 1px solid black;
+  margin: 0 auto;
+  width: 50%;
+  padding-bottom: 100px;
 }
 
 .explanation-2 {
-  width: 40%;
-  margin-bottom: 50px;
-  margin-right: 1000px;
- }
-  
+  font-size: 18px;
+  border-bottom: 1px solid black;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  width: 50%;
+} 
+
 .explanation-3 {
- width: 40%;
-  margin-bottom: 50px;
-  margin-right: 1000px;
-  }
- 
+  font-size: 18px;
+  margin: 0 auto;
+  width: 50%;
+}
 
+.favo {
+  font-size: 22px;
+  border-bottom: 1px solid white;
+  display: inline-block;
+  margin-top: 22px;
+  width: 50%;
+}
+
+.target {
+  font-size: 22px;
+  border-bottom: 1px solid white;
+  display: inline-block;
+}
+
+.clear {
+  clear: left;
+}
+.footer {
+ background-color: white;
+ height: 50px;
+ padding: 40px;
+}
+      
 .footer-logo {
-  text-align: center;
-}
-}
-@media (max-width: 670px) {
-  .header-list a {
-    width: 100%;
-    font-size: 5px;
-    display: none;
-  }
-
-  
-  .contents-item {
-    width: 100%;
-  }
-
-  img {
-    margin: 0 auto;
-  }
-    
-  
-  .explanation {
-    width: 100%;
-    font-size: 24px;
-  }
-  .explanation-2 {
-    width: 100%;
-    font-size: 24px;
-  }
-  
-  .explanation-3 {
-    width: 100%;
-    font-size: 24px;
-  }
-  
-    
-  
-  .footer {
-    text-align: center;
-  }
+  color: #BDB76B;
+  font-size: 30px;
+  margin: 0 auto;
 }
