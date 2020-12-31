@@ -12,6 +12,7 @@ li {
   float: left;
   padding: 33px 20px;
 }
+
 header {
   background-color: white;
   height: 91px;
@@ -27,6 +28,7 @@ header {
   letter-spacing: 2px;
   color: black;
 }
+
 .header-list a {
   color: black;
   padding: 20px 20px;
@@ -37,6 +39,7 @@ header {
   background-color: white;
   line-height: 1px;
   transition: all 1s;
+  flex: auto;
 }
 
 .btn:hover {
@@ -47,30 +50,28 @@ header {
 .clear {
   clear: left;
 }
+
 .main {
-  background-color: #BDB76B;
-  
+  width: 1000px;
+  background-color: #BDB76B; 
   padding: 100px 80px;
-  max-width: 1170px;
-  width: 100%;
   margin: 0 auto;
   background-size: cover;
   text-align: center;
 }
 
-
-
-
 .contents {
-  
-  width: 1000px;
   margin: 0 auto;
-  text-align: center;
 }
+
 .section-title {
   font-size: 50px;
   padding-bottom: 150px;
   margin-bottom:50px;
+  text-align: center;
+}
+
+.contents {
   text-align: center;
 }
 
@@ -79,64 +80,49 @@ header {
   margin-bottom: 50px;
   padding-bottom: 100px;
   text-align: center;
-  
+  margin: atuto;
 }
+
 h2 {
   font-size: 32px;
+  margin: 50px 0px;
   text-align: center;
 }
 
 img {
   height: 350px;
   width: 400px;
-  margin-bottom:  130px;
-  margin: 0 auto;
+  margin-bottom: 150px;
 }
 
-
-
-.footer {
- background-color: white;
- height: 50px;
- padding: 40px;
-}
-.footer-logo {
-  color: #BDB76B;
-  font-size: 30px;
- 
-}
 
 .explanation-1 {
-  font-size: 18px;
   border-bottom: 1px solid black;
-  margin: 0px 50px 30px 250px;
-  padding-bottom: 100px;
+  margin: 0 auto;
   width: 50%;
-  cursor: pointer;
+  padding-bottom: 100px;
 }
 
 .explanation-2 {
   font-size: 18px;
   border-bottom: 1px solid black;
-  margin: 0px 50px 30px 250px;
+  margin: 0 auto;
   padding-bottom: 100px;
   width: 50%;
-  cursor: pointer;
-}
+} 
 
 .explanation-3 {
   font-size: 18px;
-  margin: 0px 50px 30px 250px;
+  margin: 0 auto;
   width: 50%;
-  cursor: pointer;
-} 
+}
+
 .favo {
-  font-size: 24px;
+  font-size: 22px;
   border-bottom: 1px solid white;
-  margin-top: 20px;
   display: inline-block;
-  list-style: none;
-  text-align: center;
+  margin-top: 22px;
+  width: 50%;
 }
 
 .target {
@@ -147,4 +133,15 @@ img {
 
 .clear {
   clear: left;
+}
+.footer {
+ background-color: white;
+ height: 50px;
+ padding: 40px;
+}
+      
+.footer-logo {
+  color: #BDB76B;
+  font-size: 30px;
+  margin: 0 auto;
 }
