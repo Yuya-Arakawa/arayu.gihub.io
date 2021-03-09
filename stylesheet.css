@@ -19,6 +19,7 @@ header {
   width: 100%;
   top: 0;
   z-index: 10;
+  position: fixed;
 }
 
 .header-logo {
@@ -28,7 +29,6 @@ header {
   letter-spacing: 2px;
   color: black;
 }
-
 .header-list a {
   color: black;
   padding: 20px 20px;
@@ -42,6 +42,8 @@ header {
   flex: auto;
 }
 
+
+
 .btn:hover {
   color: white;
   background-color: black;
@@ -52,16 +54,16 @@ header {
 }
 
 .main {
-  width: 1000px;
+  width: 100%;
   background-color: #BDB76B; 
   padding: 100px 80px;
   margin: 0 auto;
   background-size: cover;
   text-align: center;
 }
-
 .contents {
   margin: 0 auto;
+  text-align: center;
 }
 
 .section-title {
@@ -71,14 +73,10 @@ header {
   text-align: center;
 }
 
-.contents {
-  text-align: center;
-}
 
 .contents-item {
-  width: 100%;
-  margin-bottom: 50px;
-  padding-bottom: 100px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
   text-align: center;
   margin: atuto;
 }
@@ -88,18 +86,18 @@ h2 {
   margin: 50px 0px;
   text-align: center;
 }
-
 img {
   height: 350px;
   width: 400px;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
 }
 
 
 .explanation-1 {
+  font-size: 18px;
   border-bottom: 1px solid black;
   margin: 0 auto;
-  width: 50%;
+  width: 100%;
   padding-bottom: 100px;
 }
 
@@ -107,30 +105,25 @@ img {
   font-size: 18px;
   border-bottom: 1px solid black;
   margin: 0 auto;
+  width: 100%;
   padding-bottom: 100px;
-  width: 50%;
 } 
-
 .explanation-3 {
   font-size: 18px;
   margin: 0 auto;
-  width: 50%;
+  width: 100%;
 }
 
 .favo {
   font-size: 22px;
   border-bottom: 1px solid white;
-  display: inline-block;
   margin-top: 22px;
-  width: 50%;
 }
 
 .target {
   font-size: 22px;
   border-bottom: 1px solid white;
-  display: inline-block;
 }
-
 .clear {
   clear: left;
 }
@@ -142,6 +135,7 @@ img {
       
 .footer-logo {
   color: #BDB76B;
-  font-size: 30px;
-  margin: 0 auto;
+  font-size: 24px;
+  padding-bottom: 30px;
+  text-align: center;
 }
