@@ -6,6 +6,7 @@ body {
   font-family: "游明朝";
   color: white;
   width: 100%;
+  overflow-x:hidden;
 }
 
 header {
