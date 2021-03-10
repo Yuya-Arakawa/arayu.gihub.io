@@ -8,12 +8,6 @@ body {
   width: 100%;
 }
 
-li {
-  list-style: none;
-  float: left;
-  padding: 33px 20px;
-}
-
 header {
   background-color: white;
   height: 91px;
@@ -26,7 +20,7 @@ header {
 .header-logo {
   font-size: 36px;
   float: left;
-  padding: 20px 40px;
+  padding: 20px 0px;
   letter-spacing: 2px;
   color: black;
 }
