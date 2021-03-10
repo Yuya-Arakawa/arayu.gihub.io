@@ -12,10 +12,8 @@
   main {
     width: 100%;
   }
-  .book {
-    display: inline-block;
-    height: 80px;
-  }
+
+
   
   img {
     display: block;
