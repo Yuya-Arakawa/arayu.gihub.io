@@ -13,6 +13,7 @@
     width: 100%;
   }
   .book {
+    display: inline-block;
     height: 50%;
   }
   
