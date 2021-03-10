@@ -37,6 +37,12 @@ header {
   flex: auto;
 }
 
+li {
+  list-style: none;
+  float: left;
+  padding: 33px 20px;
+}
+
 
 
 .btn:hover {
