@@ -1,1 +1,1 @@
-# arayu.gihub.io
+# arayu.gihub.io/favicon.ico:1
